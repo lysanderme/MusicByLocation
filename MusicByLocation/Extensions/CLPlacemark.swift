@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 extension CLPlacemark {
-    func getLocationBreakdown() -> String {
+    func getLocationStats() -> String {
         return """
             Street: \(self.thoroughfare ?? "None")
             City: \(self.locality ?? "None")
