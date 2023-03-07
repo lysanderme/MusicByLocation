@@ -19,6 +19,7 @@
 		4F0F943329B29E2400DD9C91 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F943229B29E2400DD9C91 /* StateController.swift */; };
 		4F0F943629B2A2C900DD9C91 /* ArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F943529B2A2C900DD9C91 /* ArtistResponse.swift */; };
 		4F0F943829B2A2F100DD9C91 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F943729B2A2F100DD9C91 /* Artist.swift */; };
+		4F872D3A29B7911C004ED482 /* ITunesAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F872D3929B7911C004ED482 /* ITunesAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4F0F943229B29E2400DD9C91 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		4F0F943529B2A2C900DD9C91 /* ArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponse.swift; sourceTree = "<group>"; };
 		4F0F943729B2A2F100DD9C91 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		4F872D3929B7911C004ED482 /* ITunesAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4F0F940929B000EA00DD9C91 /* Preview Content */,
 				4F0F942D29B001F300DD9C91 /* LocationHandler.swift */,
 				4F0F943229B29E2400DD9C91 /* StateController.swift */,
+				4F872D3929B7911C004ED482 /* ITunesAdaptor.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0F942E29B001F300DD9C91 /* LocationHandler.swift in Sources */,
+				4F872D3A29B7911C004ED482 /* ITunesAdaptor.swift in Sources */,
 				4F0F940629B000E900DD9C91 /* ContentView.swift in Sources */,
 				4F0F940429B000E900DD9C91 /* MusicByLocationApp.swift in Sources */,
 				4F0F943129B29CE300DD9C91 /* CLPlacemark.swift in Sources */,
