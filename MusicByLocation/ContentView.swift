@@ -12,7 +12,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text(state.artistsByLocation)
+            List(state.artistsByLocation) { item in
+                Text(item)
+            }
                 .padding(15)
             Spacer()
             Button("Find Music", action: {
